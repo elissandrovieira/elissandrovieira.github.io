@@ -73,18 +73,6 @@ h2{
     box-shadow: 0px 3px 3px #00000021;
 }
 
-
-/*#linkedin{
-    background: #0071ae;
-    background: linear-gradient(222deg, #0071ae 0%, #1a4c67 84%);
-    border-radius: 5px;
-    transition-duration: 500ms;
-}
-
-#linkedin:hover{
-    background: #1a4c67
-}*/
-
 #linkedin{
     background: #0071ae;
     background: linear-gradient(222deg, #0071ae 0%, #1a4c67 84%);
