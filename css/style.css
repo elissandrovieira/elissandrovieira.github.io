@@ -73,30 +73,68 @@ h2{
     box-shadow: 0px 3px 3px #00000021;
 }
 
-.social-icons li:nth-child(1){
-    background: rgb(0,113,174);
-    background: linear-gradient(222deg, rgba(0,113,174,1) 0%, rgba(26,76,103,1) 84%);
-    border-radius: 5px;
 
+/*#linkedin{
+    background: #0071ae;
+    background: linear-gradient(222deg, #0071ae 0%, #1a4c67 84%);
+    border-radius: 5px;
+    transition-duration: 500ms;
 }
 
-.social-icons li:nth-child(2){
+#linkedin:hover{
+    background: #1a4c67
+}*/
+
+#linkedin{
+    background: #0071ae;
+    background: linear-gradient(222deg, #0071ae 0%, #1a4c67 84%);
+    border-radius: 5px;
+    transition-duration: 200ms;
+}
+
+#linkedin:hover{
+    background: rgb(126,183,213);
+    background: linear-gradient(133deg, rgba(126,183,213,1) 0%, rgba(30,102,140,1) 100%);
+    transform: scale(1.05,1.05);
+}
+
+#instagram{
     background: rgb(255,208,89);
     background: linear-gradient(22deg, rgba(255,208,89,1) 0%, rgba(253,85,40,1) 40%, rgba(190,43,188,1) 75%);
     border-radius: 5px;
+    transition-duration: 200ms;
 }
 
+#instagram:hover{
+    background: rgb(253,85,40);
+    background: linear-gradient(22deg, rgb(248, 109, 70) 0%, rgb(201, 62, 198) 100%);
+    transform: scale(1.05,1.05);
+}
 
-.social-icons li:nth-child(3){
-    background: rgb(23,105,255);
-    background: linear-gradient(222deg, rgba(23,105,255,1) 0%, rgba(5,40,103,1) 84%);
+#behance{
+    background: #1769ff;
+    background: linear-gradient(222deg, #1769ff 0%, #052867 84%);
     border-radius: 5px;
+    transition-duration: 200ms;
 }
 
-.social-icons li:nth-child(4){
+#behance:hover{
+    background: rgb(115,164,255);
+    background: linear-gradient(221deg, rgba(115,164,255,1) 0%, rgba(0,89,255,1) 100%);
+    transform: scale(1.05,1.05);
+}
+
+#github{
     background: rgb(78,78,78);
     background: linear-gradient(222deg, rgba(78,78,78,1) 0%, rgba(34,34,34,1) 63%);
     border-radius: 5px;
+    transition-duration: 200ms;
+}
+
+#github:hover{
+    background: rgb(78,78,78);
+    background: linear-gradient(222deg, #838383 0%, rgb(49, 49, 49) 63%);
+    transform: scale(1.05,1.05);
 }
 
 .social-icons img{
@@ -109,9 +147,9 @@ h2{
     margin: 10px 0px;
 }
 
-.button li{
+.button div{
     background: rgb(29,161,242);
-    background: linear-gradient(150deg, rgba(29,161,242,1) 0%, rgba(14,113,200,1) 100%);
+    background: linear-gradient(150deg, #1da1f2 0%, #0e71c8 100%);
     width: 140px;
     height: 35px;
     list-style: none;
@@ -120,6 +158,13 @@ h2{
     align-items: center;
     border-radius: 5px;
     box-shadow: 0px 5px 3px #0000000c;
+    transition-duration: 200ms;
+    
+}
+
+.button div:hover{
+    background: linear-gradient(230deg, #1da1f2 0%, #0e71c8 100%);
+    transform: scale(1.05,1.05);
 }
 
 .button a{
